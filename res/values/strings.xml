@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">GMail Multi Widget</string>
+    <string name="widgetLite">GMail Lite</string>
+
+    <string name="goto_inbox">Go to inbox</string>
+    <string name="mail_single">mail</string>
+    <string name="mail_multiple">mails</string>
 </resources>

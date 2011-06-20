@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent" android:layout_height="fill_parent"
+              android:orientation="horizontal" android:gravity="right">
+    <TextView android:id="@+id/goto_inbox"
+              android:text="@string/goto_inbox"
+              android:layout_height="wrap_content" android:layout_width="wrap_content" android:maxWidth="102dp"
+              android:layout_marginTop="15dp" android:gravity="center"
+              android:textSize="13sp" android:textColor="@android:color/white"
+              android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.5"
+              android:singleLine="true"
+              android:drawableTop="@drawable/gmail_smaller" android:drawablePadding="-9.0px" />
+    <TextView android:id="@+id/mailCount" android:nextFocusLeft="@id/goto_inbox"
+              android:text="0"
+              android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="-7dp"
+              android:textSize="60sp" android:textColor="@android:color/white"
+              android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.5"
+              android:singleLine="true" />
+    <TextView android:id="@+id/mailText" android:nextFocusLeft="@id/mailCount"
+              android:text="@string/mail_multiple"
+              android:layout_height="wrap_content" android:layout_width="wrap_content" android:maxWidth="120dp"
+              android:textSize="32sp" android:textColor="@android:color/white"
+              android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.5"
+              android:singleLine="true" />
+</LinearLayout>
